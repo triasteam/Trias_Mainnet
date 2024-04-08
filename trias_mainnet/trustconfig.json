@@ -36,6 +36,6 @@
 "validator_upgrade_handle_port":6666,
 "trust_running_vertify_mode":2,
 "request_tm_grpc_port":12345,
-"tm_seed_node_first":"210.73.218.171",
-"tm_seed_node_second":"106.3.133.179:46657"
+"tm_seed_node_first":"trias_vertify_server",
+"tm_seed_node_second":"vertify"
 }
