@@ -1,30 +1,10 @@
 [Eth]
-#DiscoveryURLs = []
+NetworkId = 16
 NoPruning = false
 NoPrefetch = false
 LightPeers = 100
-UltraLightFraction = 75
 EnablePreimageRecording = false
 EWASMInterpreter = ""
-EVMInterpreter = ""
-
-[Eth.Miner]
-GasFloor = 30000000
-GasCeil = 40000000
-GasPrice = 1000000000
-Recommit = 10000000000
-Noverify = false
-
-[Eth.Ethash]
-CacheDir = ""
-CachesInMem = 0
-CachesOnDisk = 0
-CachesLockMmap = false
-DatasetDir = ""
-DatasetsInMem = 0
-DatasetsOnDisk = 0
-DatasetsLockMmap = false
-PowMode = 0
 
 [Eth.TxPool]
 Locals = []
@@ -43,34 +23,22 @@ Lifetime = 10800000000000
 Blocks = 20
 Percentile = 60
 
-#[Shh]
-#MaxMessageSize = 1048576
-#RestrictConnectionBetweenLightClients = true
-
 [Node]
-DataDir = "/data/node"
-#omitempty = ""
-InsecureUnlockAllowed = true
-NoUSB = true
 IPCPath = "geth.ipc"
-HTTPHost = "0.0.0.0"
+HTTPHost = "localhost"
+NoUSB = true
+InsecureUnlockAllowed = false
 HTTPPort = 8545
-HTTPVirtualHosts = ["*"]
-HTTPModules = ["debug","eth", "net", "web3", "txpool", "parlia"]
-WSPort = 8576
+HTTPVirtualHosts = ["localhost"]
+HTTPModules = ["eth", "net", "web3", "txpool", "parlia"]
+WSPort = 8546
 WSModules = ["net", "web3", "eth"]
-#GraphQLPort = 8577
-GraphQLVirtualHosts = ["*"]
 
 [Node.P2P]
-MaxPeers = 50
-NoDiscovery = false
-StaticNodes = []
-BootstrapNodes = []
-TrustedNodes = []
-ListenAddr = ":30303"
-
-
+MaxPeers = 30
+NoDiscovery = true
+StaticNodes = ["enode://139a7d22715e0871d8702010a33c8df01630d0428a3bc3eb360a5c48e80472a755c2f712113639494e927f7bcac924aca000830873f9f84172fbffa6d0ad5786@57.181.54.54:10555"]
+ListenAddr = ":30555"
 EnableMsgEvents = false
 
 [Node.HTTPTimeouts]
@@ -78,9 +46,12 @@ ReadTimeout = 30000000000
 WriteTimeout = 30000000000
 IdleTimeout = 120000000000
 
-
 [Node.LogConfig]
+FilePath = "bsc.log"
+MaxBytesSize = 1360
+Level = "debug"
+MaxBackups = 8
+MaxAge =5
 FileRoot = ""
-FilePath = "log/bsc.log"
-MaxBytesSize = 10485760
-Level = "info" 
+
+

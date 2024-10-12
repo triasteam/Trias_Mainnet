@@ -1,0 +1,50 @@
+{
+    "bsc_pubkey_addr_maps": [
+   {
+      "bsc_node_pubkey_addr": "0xEeF9bECbf568559653Fbce25d0B946cC2e30771C",
+      "tm_node_pubkey_addr": "gYpiBP7DxvfWowM7oNcXwyhLq+tdGS+17OrMTFGlQG8="
+    },
+    {
+      "bsc_node_pubkey_addr": "0x2Ac30B3946da0fA0D94dB97F680E0e1EBAaa3c86",
+      "tm_node_pubkey_addr": "jcR7lTOG7v38wzgu/iv9HcyTlBCMZC/+tqQ+JfURlgk="
+    },
+    {
+      "bsc_node_pubkey_addr": "0x3637f213C9dbd5e2d8c65a6410475Aec410473D5",
+      "tm_node_pubkey_addr": "qw9hLRzl8x4RXfgfv2MBgWExnoxIV6yHpX3349wNSyA="
+    },
+    {
+      "bsc_node_pubkey_addr": "0x193bfBA425e7D3451d8410f1f4fa4554812Df713",
+      "tm_node_pubkey_addr": "wQDDG+VFZN9AKU1Uz2MToKOBtGCcWuHtvm8hLkUXKLY="
+    },
+    {
+      "bsc_node_pubkey_addr": "0xEcb7beD0204D3B8d244e7a121d649BA654ede492",
+      "tm_node_pubkey_addr": "a0rmXA62I6TTTbPPssMtWTXpeBDGdeMJfF7wZe0oKPA="
+
+    },
+    {
+      "bsc_node_pubkey_addr": "0x394fb9f059d2887A61aBacE3dccBbf32d91Fa123",
+      "tm_node_pubkey_addr": "kpK6JH/AJ7we5d09eE+VQciPmydWwHTXHtecqM15UP8="
+    },
+    {
+      "bsc_node_pubkey_addr": "0xDd38105Ee1915E04342568575869c94a1270805E",
+      "tm_node_pubkey_addr": "Os2Qria4zDrUgPNfDTvryz1Yv/Cn9/rmenpn+dEx7Ao="
+    },
+    {
+      "bsc_node_pubkey_addr":  "0x9a059E83dEfAEF0B7dC650222dAE7abC3dc0d0C7",
+      "tm_node_pubkey_addr": "coGiv4qB4ExBWx/2gH2gP8Ajxtx8vBGC1GMs6zsM7sU="
+    },
+    {
+      "bsc_node_pubkey_addr": "0x279915786Fb12E67F0f18B765ca6831D9A73a5e3",
+      "tm_node_pubkey_addr": "zdlmWSfC1Ifw+0E06joUwFSehDP15+5RoZOZEZByQrc="
+    }
+],
+"request_trust_interval": 17,
+"trust_running": 1,
+"trust_notee_sync_data": 1,
+"super_node": 1,
+"validator_upgrade_handle_port": 6666,
+"trust_running_vertify_mode": 2,
+"request_tm_grpc_port": 46658,
+"tm_seed_node_first": "148.153.184.133:46657",
+"tm_seed_node_second": "148.153.184.133:46657"
+}
