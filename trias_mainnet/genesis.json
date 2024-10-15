@@ -2,6 +2,7 @@
   "config": {
   "chainId": 345,
   "triasForkSupport": true,
+  "triasValidatorBlock": 6240000,
   "triasForkBlock": 3861309,
   "triasForkOldChainID": 16,
   "mirrorSyncBlock":0,

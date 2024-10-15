@@ -44,7 +44,7 @@
 "super_node": 0,
 "validator_upgrade_handle_port": 6666,
 "trust_running_vertify_mode": 2,
-"request_tm_grpc_port": 46658,
-"tm_seed_node_first": "192.168.40.100",
+"request_tm_grpc_port": 58069,
+"tm_seed_node_first": "54.199.35.252",
 "tm_seed_node_second": "148.153.184.133:46657"
 }
