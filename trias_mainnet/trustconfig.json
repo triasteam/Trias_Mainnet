@@ -40,11 +40,11 @@
 ],
 "request_trust_interval": 17,
 "trust_running": 1,
-"trust_notee_sync_data": 1,
-"super_node": 1,
+"trust_notee_sync_data": 0,
+"super_node": 0,
 "validator_upgrade_handle_port": 6666,
 "trust_running_vertify_mode": 2,
 "request_tm_grpc_port": 46658,
-"tm_seed_node_first": "148.153.184.133:46657",
+"tm_seed_node_first": "192.168.40.100",
 "tm_seed_node_second": "148.153.184.133:46657"
 }
